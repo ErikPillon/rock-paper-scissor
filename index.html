@@ -9,11 +9,21 @@
 <body>
     <script>console.log("Hello World!");</script>
     
-    <script src="scripts.js"></script>
     
     <h1>Rock Paper Scissor</h1>
+    
+    <button id="rock">Rock</button>
+    <button id="paper">Paper</button>
+    <button id="scissors">Scissors</button>
+    
+    <div id="messageDiv">Press one of the options for starting the round.</div>
 
-    <script>playGame();</script>
+    <div id="currentScore"></div>
+
+    <button id="reset" onclick="resetScore()">Reset Score</button>
+    
+    <!-- <script>playGame();</script> -->
+    <script src="scripts.js"></script>
 
 </body>
 </html>
